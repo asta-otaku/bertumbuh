@@ -8,7 +8,7 @@ function Header() {
   const [toggle, setToggle] = useState(false);
   return (
     <div className="bg-[#FFFFFF]">
-      <div className="flex justify-between py-2 md:py-6 px-8 border-b border-[#6D6D6D]">
+      <div className="flex justify-between py-4 md:py-10 px-[70px] border-b border-[#6D6D6D]">
         <div className="flex items-center">
           <Logo className="w-8 h-8 md:w-full md:h-full" />
           <h3 className="mx-4 font-semibold text-lg md:text-xl lg:text-[26px] text-[#34364A]">
@@ -57,7 +57,7 @@ function Header() {
           <li>Newsletter</li>
         </ul>
       )}
-      <ul className="hidden lg:flex pt-6 pl-8 font-medium text-xl text-[#6D6D6D]">
+      <ul className="hidden lg:flex pt-6 pl-[72px] font-medium text-xl text-[#6D6D6D]">
         <li className="mr-8">Home</li>
         <li className="mr-8">Kemitraan</li>
         <li className="mr-8">Tentang</li>
