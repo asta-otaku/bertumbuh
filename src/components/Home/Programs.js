@@ -4,13 +4,10 @@ import { ReactComponent as Program1 } from "../../assets/program1.svg";
 import { ReactComponent as Program2 } from "../../assets/program2.svg";
 import { ReactComponent as Program3 } from "../../assets/program3.svg";
 import { ReactComponent as Program4 } from "../../assets/program4.svg";
-import { Input } from "antd";
-
-const { Search } = Input;
 
 function Programs() {
   return (
-    <div className="mt-[150px] px-[70px]">
+    <div className="my-[150px] px-[70px]">
       <h4 className="text-green font-medium text-[26px]">Baca Tulisan Kami</h4>
       <h2 className="mt-[15px] font-medium text-[48px] text-[#4D4D4D]">
         Berita, Artikel & Event Terbaru
@@ -86,7 +83,7 @@ function Programs() {
           Lihat Selengkapnya
         </button>
       </div>
-      <div className="mt-[150px] flex flex-col items-center">
+      <div className="mt-[150px] pb-4 flex flex-col items-center">
         <h2 className="mt-5 font-inter font-semibold text-[48px] text-[#313131]">
           Subscribe Newsletter Kami
         </h2>
@@ -94,17 +91,16 @@ function Programs() {
           Jangan sampai terlewat informasi serta berita dari kami. Subscribe
           sekarang!
         </p>
-        <Search
-          className="mt-11 mb-8"
-          style={{
-            width: 620,
-            paddingBottom: 10,
-          }}
-          placeholder="input search text"
-          allowClear
-          enterButton="Search"
-          size="large"
-        />
+        <div className="mt-[45px] py-[13px] pr-[14px] pl-[28px] w-[620px] flex items-center border border-green">
+          <input
+            type="email"
+            placeholder="Masukkan email aktif anda..."
+            className="font-inter font-medium outline-none border-none w-[75%]"
+          />
+          <button className="py-[14px] px-[36px] bg-green text-white font-inter font-medium">
+            Subscribe
+          </button>
+        </div>
       </div>
     </div>
   );
