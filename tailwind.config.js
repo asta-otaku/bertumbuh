@@ -13,7 +13,11 @@ module.exports = {
       poppins: ["Poppins", "sans-serif"],
       inter: ["Inter", "sans-serif"],
     },
-    extend: {},
+    extend: {
+      backgroundImage: {
+        "hero-lg": "url('/src/assets/hero-bg.svg')",
+      },
+    },
   },
   plugins: [],
 };
