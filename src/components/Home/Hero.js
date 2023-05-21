@@ -9,7 +9,7 @@ function Hero() {
     <div className="lg:mx-[72px] md:mx-[50px] mx-[35px] lg:mt-[94px] md:mt-[45px] mt-10">
       <div className="lg:pt-[45px] pt-5 pl-[45px] pl-5 bg-[#2a9d8f1a] flex flex-col md:flex-row justify-even">
         <div>
-          <h2 className="font-medium lg:text-6xl text-[30px] lg:leading-[90px] leading-[44px] lg:w-[82%] md:w-[450px] w-[300px] text-[#272727]">
+          <h2 className="font-medium lg:text-5xl text-[30px] lg:leading-[90px] leading-[44px] lg:w-[70%] md:w-[450px] w-[300px] text-[#272727]">
             Bersama Lindungi Bumi Kita{" "}
             <span className="hidden md:inline">Untuk Masa Depan</span>
           </h2>
@@ -17,7 +17,7 @@ function Hero() {
             Kami bermimpi untuk menanam lebih dari 10 juta pohon dan menciptakan
             dunia yang lebih indah dan asri untuk kita, dia, dan semua.
           </p>
-          <div className="flex flex-col md:flex-row lg:mt-[72px] md:mt-10 mb-16">
+          <div className="flex flex-col md:flex-row lg:mt-[72px] md:mt-10 mt-6 mb-16">
             <button className="px-[11px] mb-4 md:mb-0 py-2 text-white bg-green border border-green mr-6 w-[250px] font-medium text-xl text-white">
               Eksplorasi Bertumbuh
             </button>
@@ -29,13 +29,13 @@ function Hero() {
         </div>
         <Tree className="self-start md:self-center ml-0 lg:ml-[-22%]" />
       </div>
-      <ul className="flex mt-6 font-semibold text-[28px] text-[#A6A6A6]">
+      <ul className="flex flex-wrap justify-center md:justify-start mt-6 font-semibold text-2xl lg:text-[28px] text-[#A6A6A6]">
         <li className="mr-[45px]">DITLANCE</li>
         <li className="mr-[35px]">OWTHEST</li>
-        <li className="mr-[35px]">NEOVASI</li>
+        <li className="mr-0 md:mr-[35px]">NEOVASI</li>
         <li>ONAGO</li>
       </ul>
-      <div className="mt-[150px] flex items-center justify-center">
+      <div className="mt-[80px] lg:mt-[150px] flex items-center justify-center scale-[60%] md:scale-75 lg:scale-100">
         <Leaf />
         <div className="ml-[68px]">
           <h2 className="font-medium text-[54px] text-[#535353]">1.351.003</h2>
@@ -44,14 +44,16 @@ function Hero() {
           </h4>
         </div>
       </div>
-      <div className="mt-[150px] flex items-center justify-center">
+      <div className="mt-[100px] md:mt-[85px] lg:mt-[150px] flex flex-col md:flex-row items-center justify-center">
         <FlowerBed />
-        <div className="ml-[104px]">
-          <h3 className="text-green font-medium text-[26px]">Tentang Kami</h3>
-          <h2 className="mt-[15px] font-medium text-[48px] text-[#535353] w-[85%]">
+        <div className="ml-0 md:ml-6 lg:ml-[104px]">
+          <h3 className="text-green font-medium text-xl lg:text-[26px]">
+            Tentang Kami
+          </h3>
+          <h2 className="mt-[10px] lg:mt-[15px] font-medium text-[26px] lg:text-[48px] text-[#535353] w-[50%] md:w-[55%] lg:w-[70%]">
             BERTUMBUH - Save The World
           </h2>
-          <p className="mt-10 text-xl text-justify w-[540px] text-[#656565]">
+          <p className="mt-10 text-xl text-justify w-[85%] md:w-[75%] lg:w-[60%] text-[#656565]">
             BERTUMBUH - Adalah organisasi non-profit yang mempunyai tujuan untuk
             Melindungi, menjaga, merawat, dan melestarikan pohon-pohon yang ada
             di bumi yang kita pijak sekarang
